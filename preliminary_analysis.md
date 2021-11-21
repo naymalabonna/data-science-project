@@ -12,7 +12,7 @@
 
 - `code`
   - `etl_recipes.py`: Cleans `train.json` and `test.json`, returns cleaned list of ingredients.
-  - `exploratory_data_analysis.ipynb`: Includes descriptive statistics and charts.
+  - `exploratory_data_analysis.ipynb`: Includes descriptive statistics about the dataset.
   - `build_model.py`: Builds Neural Network model. (yet to be added)
 
 ### Exploratory Analysis
