@@ -17,14 +17,10 @@
   - `build_model.py`: Builds Neural Network model. (yet to be added)
 
 ### Exploratory Analysis
-Describe what work you have done so far and include the code.
-For exploratory analysis, we explored the main characteristics of the data including the total number of recipes, cuisines, and
-number of unique ingredients. Number of recipes for each cuisine
-total number of recipes, cuisines, and ingredients
-number of unique ingredients
-total number of recipes, total number of recipes per cuisine
-total number of ingredients, total number of ingredients per ingredient 
-number of unique ingredients
+We explored some of the main characteristics of the data including the total number of recipes and ingredients. We 
+also determined the number of unique cuisines, the total number of recipes for each unique cuisine, the total number
+of unique ingredients, and the total number of recipes for each unique ingredient. This helped increase our
+understanding of which ingredients could be more/less useful in determining the cuisine that a recipe belongs to. 
 
 ### Challenges
 Describe any challenges you've encountered so far. Let me know if there's anything you need help with!
