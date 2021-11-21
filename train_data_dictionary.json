@@ -3,7 +3,7 @@
    "FieldName": "Id",
    "DataType": "INTEGER",
    "Description": "The id will help keep track of the data by uniquely identifying each recipe ",
-   "Example": "1000"
+   "Example": 1000
  },
  {
    "FieldName": "Cuisine",
