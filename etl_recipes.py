@@ -85,4 +85,4 @@ for ingredient in train_ingredients: # list of train ingredients for each recipe
     print(ingredient)
     
 for ingredient in test_ingredients: # list of test ingredients for each recipe after cleaning
-  print (ingredient)
+    print (ingredient)
