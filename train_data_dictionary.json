@@ -9,12 +9,12 @@
    "FieldName": "Cuisine",
    "DataType": "VARCHAR",
    "Description": "The cuisine is the style of cooking associated with a recipe",
-   "Example": ""Indian""
+   "Example": "Indian"
  },
  {
    "FieldName": "Ingredients",
    "DataType": "LIST",
    "Description": "The ingredients are listed as strings and correspond to a cuisine ",
-   "Example": "["turmeric","vegetable stock","tomatoes","garam masala"]"
+   "Example": ["turmeric","vegetable stock","tomatoes","garam masala"]
  }
 ]
