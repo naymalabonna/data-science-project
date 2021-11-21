@@ -80,7 +80,6 @@ test_ingredients = remove_whitespaces(test_ingredients)
 test_ingredients = remove_letters(test_ingredients)
 test_ingredients = lemmatization(test_ingredients)
 
-
 for ingredient in train_ingredients: # list of train ingredients for each recipe after cleaning
     print(ingredient)
     
