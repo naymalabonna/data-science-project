@@ -88,3 +88,6 @@ test_ingredients = remove_special_characters(test_ingredients)
 test_ingredients = remove_whitespaces(test_ingredients)
 test_ingredients = remove_letters(test_ingredients)
 test_ingredients = lemmatization(test_ingredients)
+
+for ingredient in test_ingredients:
+  print (ingredient) # list of ingredients for each recipe after cleaning
