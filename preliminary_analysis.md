@@ -22,11 +22,10 @@ of unique ingredients, and the total number of recipes for each unique ingredien
 understanding of which ingredients could be more/less useful in determining the cuisine that a recipe belongs to. 
 
 ### Challenges
-Describe any challenges you've encountered so far. Let me know if there's anything you need help with!
-
+At first glance, we did not think our data sets needed cleaning, especially since it consists of only three aspects (id, cuisine, and ingredients). However, upon further inspection of the data set, we realized that it did in fact need cleaning, and it was a challenge to figure out what exactly we should alter to ensure not only that it will be easy to work with for future use, but also that it would not hinder our model's accuracy. 
 ### Future Work
 Describe what work you are planning to complete for the final analysis.
-...Creating a Neural Network Classification Model using Keras
+Since we did not begin creating our model yet, our future work consists of creating a Neural Network Classification Model using Keras.
 
 ### Contributions
-Describe the contributions that each group member made.
+This project was fully collaborative. 
