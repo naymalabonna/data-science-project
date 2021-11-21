@@ -16,13 +16,11 @@
   - `build_model.py`: Builds Neural Network model. (yet to be added)
 
 ### Exploratory Analysis
-We explored some of the main characteristics of the data including the total number of recipes and ingredients. We 
-also determined the number of unique cuisines, the total number of recipes for each unique cuisine, the total number
-of unique ingredients, and the total number of recipes for each unique ingredient. This helped increase our
-understanding of which ingredients could be more/less useful in determining the cuisine that a recipe belongs to. 
+We explored some of the main characteristics of the data including the total number of recipes and ingredients. We also determined the number of unique cuisines, the total number of recipes for each unique cuisine, the total number of unique ingredients, and the total number of recipes for each unique ingredient. This helped increase our understanding of which ingredients could be more/less useful in determining the cuisine that a recipe belongs to. 
 
 ### Challenges
 At first glance, we did not think our data sets needed cleaning, especially since it consists of only three aspects (id, cuisine, and ingredients). However, upon further inspection of the data set, we realized that it did in fact need cleaning, and it was a challenge to figure out what exactly we should alter to ensure not only that it will be easy to work with for future use, but also that it would not hinder our model's accuracy. 
+
 ### Future Work
 Since we did not begin creating our model yet, our future work consists of creating a Neural Network Classification Model using Keras.
 
