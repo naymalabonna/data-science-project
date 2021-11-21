@@ -5,13 +5,13 @@
 - Nayma Labonna
 
 ### Repository Structure
-- 'data'
-  - 'train.json': The training set containing recipes id, type of cuisine, and list of ingredients.
-  - 'test.json': The test set containing recipes id, and list of ingredients.
-  - 'data_dictionary.json': The data dictionary for cleaned.
+- `data`
+  - `train.json`: The training set containing recipes id, type of cuisine, and list of ingredients.
+  - `test.json`: The test set containing recipes id, and list of ingredients.
+  - `data_dictionary.json`: The data dictionary for cleaned.
 
-- 'code'
-  - 'etl_recipes.py': Cleans 'train.json' and 'test.json', returns cleaned list of ingredients.
+- `code`
+  - `etl_recipes.py`: Cleans 'train.json' and 'test.json', returns cleaned list of ingredients.
 
 /////////////delete
 List each file and what it's purpose it. Make sure you indicate where your data cleaning code and data dictionary are! 
