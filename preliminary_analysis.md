@@ -8,7 +8,6 @@
 - `data`
   - `train.json`: The training set containing recipes id, type of cuisine, and list of ingredients.
   - `test.json`: The test set containing recipes id, and list of ingredients.
-  - `cleaned.json`: The cleaned and combined dataset for modeling. (chile.....delete this)
   - `data_dictionary.json`: The data dictionary for cleaned.
 
 - `code`
