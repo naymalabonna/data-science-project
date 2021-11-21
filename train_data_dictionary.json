@@ -1,0 +1,20 @@
+[
+ {
+   "FieldName": "Id",
+   "DataType": "INTEGER",
+   "Description": "The id will help keep track of the data by uniquely identifying each recipe ",
+   "Example": "1000"
+ },
+ {
+   "FieldName": "Cuisine",
+   "DataType": "VARCHAR",
+   "Description": "The cuisine is the style of cooking associated with a recipe",
+   "Example": ""Indian""
+ },
+ {
+   "FieldName": "Ingredients",
+   "DataType": "LIST",
+   "Description": "The ingredients are listed as strings and correspond to a cuisine ",
+   "Example": "["turmeric","vegetable stock","tomatoes","garam masala"]"
+ }
+]
