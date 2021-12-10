@@ -15,3 +15,13 @@ The problem we were trying to solve with this project was being able to match a 
 
 Can you guess which cuisine these ingredients belong to? It isn't very easy, but if you guessed French, you'd be correct! Our model can take the guess-work out of this problem. The goal is to be able to predict the category of a dish’s cuisine given a list of its ingredients. We found this idea on Kaggle and thought it would be a fun and interesting way to test if it really is that simple to categorize food based on ingredients only.
 
+### Data 
+
+The dataset we used comes from Yummly, a smart cooking app that provides recipe recommendations personalized to an individual’s taste. We accessed this data through Kaggle’s website, which we were able to obtain only after making an account on their website and agreeing to the rules of the competition. There are a total or two datasets, the training data, which contains an id, cuisine type, and ingredient list for each recipe. Since our objective is to predict the cuisine type of a recipe, we also have testing data which includes id and ingredient list, but does not include the cuisine field name. The data dictionary for the training data is provided below. 
+| **Field Name**  | **Data Type** | **Description** | **Example**  | 
+|:-:|:-:|:-:|:-:|
+|  id |  int |  the id will help keep track of the data |  1000 |   
+|  cuisine |  string |  the cuisine is the type of food |  "Indian" |   
+| ingredients   |  list of strings |  the ingredients correspond to a cuisine and belong to a list |  ["turmeric",  "vegetable stock", "tomatoes", "garam masala"] | 
+
+We are limited to the cuisines provided by our dataset, which means that popular and well-known cuisines like Indian, Mexican, Chinese, Italian, etc will be centered in our data. This raises an ethical concern because not every culture’s cuisine will be an available option in the testing of our data, thus marginalizing the lesser known cuisines. Furthermore, many ingredients may overlap in many cultures’ cuisines but not every cuisine will be included in the dataset, so there will be no choice but to generalize the ingredients to an already known cuisine.
