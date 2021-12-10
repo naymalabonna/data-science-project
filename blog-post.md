@@ -29,12 +29,11 @@ Because the data is presented as being so simple, consisting of a maximum of thr
 
 ### Evaluation 
 
-We feel that our logistic regression model performs quite well since the model’s accuracy was determined to be roughly 79%. After further inspecting our classification results using a confusion matrix which allowed us to see the confusion the classifier made, we saw how some cuisines were really well predicted (Moroccan, Thai, Indian) while some suffered from more confusion (Greek and Irish are often predicted as other cuisines). 
+We feel that our logistic regression model performs quite well since the model’s accuracy was determined to be roughly 79%. After further inspecting our classification results using a confusion matrix which allowed us to see the confusion the classifier made, we saw how some cuisines were really well predicted (Moroccan, Thai, Indian) while some suffered from more confusion (Greek and Irish are often predicted as other cuisines). We also viewed our results using a classification report, which showed us the precision, recall, and f1-score values for every cuisine as well as the support which is the number of occurrences of each cuisine in the test set. Though there is always room for improvement in machine learning models, we feel confident about our model’s current performance since its overall accuracy, precision, recall, and f1-scores are all near 80%.
 
-![Screen Shot 2021-12-10 at 3 51 24 AM](https://user-images.githubusercontent.com/92902065/145545408-f65d0bb7-c040-4380-bd33-7beb7d2b11fe.png)
-![Screen Shot 2021-12-10 at 3 49 07 AM](https://user-images.githubusercontent.com/92902065/145545133-dc44048c-0a60-46fb-8a08-82321878bfc5.png)
+![download](https://user-images.githubusercontent.com/92902065/145545580-700d073f-bffb-4715-9480-a1d97efa7f5c.png)
+![Screen Shot 2021-12-10 at 3 49 07 AM](https://user-images.githubusercontent.com/92902065/145545587-d3b15c4e-3e8c-4322-8232-76a771655487.png)
 
-We also viewed our results using a classification report, which showed us the precision, recall, and f1-score values for every cuisine as well as the support which is the number of occurrences of each cuisine in the test set. Though there is always room for improvement in machine learning models, we feel confident about our model’s current performance since its overall accuracy, precision, recall, and f1-scores are all near 80%.
 
 
 
