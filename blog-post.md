@@ -4,6 +4,17 @@ Have you ever wondered where the food you eat everyday comes from? Have you ever
 
 ### Motivation
 
-The problem we were trying to solve with this project was being able to match a recipe to a cuisine based on its ingredients only, more precisely , “Which cuisine does a recipe’s ingredients belong to?”. Apart from food being such a crucial part of our lives, we chose this problem because we both love food and cooking, and thought it was an interesting topic because we knew that there can be a lot of overlap of ingredients in many cuisines, so we wanted to try and attempt to make a model that would help differentiate them. The goal is to be able to predict the category of a dish’s cuisine given a list of its ingredients. We found this idea on Kaggle and thought it would be a fun and interesting way to test if it really is that simple to categorize food based on ingredients only.
-
+The problem we were trying to solve with this project was being able to match a recipe to a cuisine based on its ingredients only, more precisely , “Which cuisine does a recipe’s ingredients belong to?”. Apart from food being such a crucial part of our lives, we chose this problem because we both love food and cooking, and thought it was an interesting topic because we knew that there can be a lot of overlap of ingredients in many cuisines, so we wanted to try and attempt to make a model that would help differentiate them. Here is an example on how this would work. Let's say you have the following ingredients and want to know which cuisine you can cook a meal from with them:
+- plain flour
+- ground pepper
+- salt
+- tomatoes
+- ground black pepper
+- thyme
+- eggs
+- green tomatoes
+- yellow corn meal
+- milk
+- vegetable oil
+Can you guess which cuisine these ingredients belong to? It isn't very easy, but if you guessed Southern US, you'd be correct! Our model can take the guess-work out of this problem. The goal is to be able to predict the category of a dish’s cuisine given a list of its ingredients. We found this idea on Kaggle and thought it would be a fun and interesting way to test if it really is that simple to categorize food based on ingredients only.
 
