@@ -31,7 +31,7 @@ Because the data is presented as being so simple, consisting of a maximum of thr
 
 We feel that our logistic regression model performs quite well since the model’s accuracy was determined to be roughly 79%. After further inspecting our classification results using a confusion matrix which allowed us to see the confusion the classifier made, we saw how some cuisines were really well predicted (Moroccan, Thai, Indian) while some suffered from more confusion (Greek and Irish are often predicted as other cuisines). We also viewed our results using a classification report, which showed us the precision, recall, and f1-score values for every cuisine as well as the support which is the number of occurrences of each cuisine in the test set. Though there is always room for improvement in machine learning models, we feel confident about our model’s current performance since its overall accuracy, precision, recall, and f1-scores are all near 80%.
 <p align = "center">
-<img src=https://user-images.githubusercontent.com/92902065/145545580-700d073f-bffb-4715-9480-a1d97efa7f5c.png />
+<img src="https://user-images.githubusercontent.com/79671237/145546844-d4982d62-1102-4727-bbd8-9f69d66b8e0a.png" />
 <img src=https://user-images.githubusercontent.com/92902065/145545587-d3b15c4e-3e8c-4322-8232-76a771655487.png />
 </p>
 
