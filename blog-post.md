@@ -16,5 +16,6 @@ The problem we were trying to solve with this project was being able to match a 
 - yellow corn meal
 - milk
 - vegetable oil
+
 Can you guess which cuisine these ingredients belong to? It isn't very easy, but if you guessed Southern US, you'd be correct! Our model can take the guess-work out of this problem. The goal is to be able to predict the category of a dish’s cuisine given a list of its ingredients. We found this idea on Kaggle and thought it would be a fun and interesting way to test if it really is that simple to categorize food based on ingredients only.
 
