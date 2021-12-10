@@ -35,5 +35,8 @@ We feel that our logistic regression model performs quite well since the modelâ€
 <img width="600" src="https://user-images.githubusercontent.com/79671237/145547422-32c80c1c-f39e-486f-b817-7a138f18919d.png" />
 </p>
 
+### Future Work
+
+Our future work includes trying to implement our problem with other models. We can see not only how these models differ, but also which one performs the best with our datasets and produces the highest accuracy. Since this is a classification problem, other models we can explore are decision tree, random forest, naive bayes, and many more. We might also come up with more ways to clean the datasets to enhance our accuracy furthermore. 
 
 
