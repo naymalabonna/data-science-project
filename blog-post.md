@@ -27,5 +27,12 @@ The dataset we used comes from Yummly, a smart cooking app that provides recipe 
 We are limited to the cuisines provided by our dataset, which means that popular and well-known cuisines like Indian, Mexican, Chinese, Italian, etc will be centered in our data. This raises an ethical concern because not every culture’s cuisine will be an available option in the testing of our data, thus marginalizing the lesser known cuisines. Furthermore, many ingredients may overlap in many cultures’ cuisines but not every cuisine will be included in the dataset, so there will be no choice but to generalize the ingredients to an already known cuisine.
 Because the data is presented as being so simple, consisting of a maximum of three columns, we initially did not believe that it needed any cleaning. However, upon further analysis and exploration, we realized that our data needed to be pre-processed in a way that would not hinder the accuracy of our model. After removing any special characters and numbers from both datasets, adding lemmatization, and creating a uniform data of lowercase letters, we were satisfisfied with our cleaning and ready to proceed with building our model. 
 
+### Evaluation 
+
+We feel that our logistic regression model performs quite well since the model’s accuracy was determined to be roughly 79%. After further inspecting our classification results using a confusion matrix which allowed us to see the confusion the classifier made, we saw how some cuisines were really well predicted (Moroccan, Thai, Indian) while some suffered from more confusion (Greek and Irish are often predicted as other cuisines). 
+![download](https://user-images.githubusercontent.com/92902065/145545061-14ab80e1-b907-4980-ae1c-8a19153206c8.png)
+We also viewed our results using a classification report, which showed us the precision, recall, and f1-score values for every cuisine as well as the support which is the number of occurrences of each cuisine in the test set. Though there is always room for improvement in machine learning models, we feel confident about our model’s current performance since its overall accuracy, precision, recall, and f1-scores are all near 80%.
+![Screen Shot 2021-12-10 at 3 49 07 AM](https://user-images.githubusercontent.com/92902065/145545133-dc44048c-0a60-46fb-8a08-82321878bfc5.png)
+
 
 
