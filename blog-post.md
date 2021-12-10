@@ -25,3 +25,7 @@ The dataset we used comes from Yummly, a smart cooking app that provides recipe 
 | ingredients   |  list of strings |  the ingredients correspond to a cuisine and belong to a list |  ["turmeric",  "vegetable stock", "tomatoes", "garam masala"] | 
 
 We are limited to the cuisines provided by our dataset, which means that popular and well-known cuisines like Indian, Mexican, Chinese, Italian, etc will be centered in our data. This raises an ethical concern because not every culture’s cuisine will be an available option in the testing of our data, thus marginalizing the lesser known cuisines. Furthermore, many ingredients may overlap in many cultures’ cuisines but not every cuisine will be included in the dataset, so there will be no choice but to generalize the ingredients to an already known cuisine.
+Because the data is presented as being so simple, consisting of a maximum of three columns, we initially did not believe that it needed any cleaning. However, upon further analysis and exploration, we realized that our data needed to be pre-processed in a way that would not hinder the accuracy of our model. After removing any special characters and numbers from both datasets, adding lemmatization, and creating a uniform data of lowercase letters, we were satisfisfied with our cleaning and ready to proceed with building our model. 
+
+
+
