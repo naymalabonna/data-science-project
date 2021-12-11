@@ -17,7 +17,7 @@ Can you guess which cuisine these ingredients belong to? It isn't very easy, but
 
 ### Data 
 
-The dataset we used comes from Yummly, a smart cooking app that provides recipe recommendations personalized to an individual’s taste. We accessed this data through Kaggle’s website, which we were able to obtain only after making an account on their website and agreeing to the rules of the competition. There are a total or two datasets, the training data, which contains an id, cuisine type, and ingredient list for each recipe. Since our objective is to predict the cuisine type of a recipe, we also have testing data which includes id and ingredient list, but does not include the cuisine field name. The data dictionary for the training data is provided below. 
+The dataset we used comes from Yummly, a smart cooking app that provides recipe recommendations personalized to an individual’s taste. We accessed this data through Kaggle’s website, which we were able to obtain only after making an account on their website and agreeing to the rules of the competition. There are a total of two datasets, the training data, which contains an id, cuisine type, and ingredient list for each recipe. Since our objective is to predict the cuisine type of a recipe, we also have testing data which includes id and ingredient list, but does not include the cuisine field name. The data dictionary for the training data is provided below. 
 | **Field Name**  | **Data Type** | **Description** | **Example**  | 
 |:-:|:-:|:-:|:-:|
 |  id |  int |  the id will help keep track of the data |  1000 |   
